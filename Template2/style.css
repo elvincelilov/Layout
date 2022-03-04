@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1272px;
+    height: 48px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+.imagefirst{
+    display: flex;
+    gap:12px;
+}
+.group2{
+    margin-top: 23px;
+    /* margin-left: 100px; */
+}
+.payna{
+    font-size: 28px;
+}
+ul{
+    display: flex;
+    gap: 59px;
+}
+li{
+    list-style-type:none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.signin{
+    width: 100px;
+    height: 28px;
+    margin-top: 30px;
+    font-size: 16px;
+    background: #F5F6FB;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+main{
+    /* width: 442px;
+    height: 166px; */
+    margin-top: 78px;
+}
+.secondpart{
+    display: flex;
+    justify-content:space-between;
+}
+.right{
+    margin-left: 200px;
+}
+.Payroll{
+    font-size: 55px;
+    color: #000000;
+}
+.payroll{
+    margin-top: 20px;
+}
+.started{
+    margin-top: 30px;
+    background: #1F7CFF;
+    border-radius: 50px;
+    width: 170px;
+    height: 28px; 
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+}
+.image3{
+    margin-right: 190px;
+}
+.group6{
+    position: absolute;
+    left: 1365px;
+    top: 241px;
+    width: 213px;
+    height: 76px;
+}
+.group7{
+    position: absolute;
+    left: 865px;
+    top: 350px;
+    width: 213px;
+    height: 155px;
+}
+.brand{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.better{
+    margin-top: 140px;
+    text-align: center;
+}
+.work{
+    color:red;
+    font-weight: bold;
+}
+section{
+    margin-top:70px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.top1{
+    display: flex;
+    gap: 10px;
+    margin-right: 93px;
+}
+.top2{
+    display: flex;
+    gap: 10px;
+    margin-right: 93px;
+}
+.top3{
+    display: flex;
+    gap: 10px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.group19{
+    margin-top: 17px;
+}
+.group17{
+    margin-top: 17px;
+}
+.group21{
+    margin-top: 17px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.button1{
+    display: flex;
+    gap: 10px;
+    margin-right: 117px;
+}
+.button2{
+    display: flex;
+    gap: 10px;
+    margin-right: 96px;
+}
+.button3{
+    display: flex;
+    gap: 10px;
+}
+.group211{
+    margin-top: 17px;
+}
+.group177{
+    margin-top: 17px;
+}
+.group199{
+    margin-top: 17px;
+}
+.last{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.lastdiv{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.text{
+    margin-top: 80px;
+}
+.lasth1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+.save{
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+.email{
+    background: #F5F6FB;
+    color:#575455;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 299px;
+    height: 28px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.lastspan{
+    background: #1F7CFF;
+    border-radius: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    margin-left: 85px;
+    color: #FFFFFF;
+}
