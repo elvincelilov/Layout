@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image:url(./picture/Group\ 7838.png);
+    background-size: cover;
+    width:100%;
+    height: 730px;
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li{
+    list-style-type: none;
+}
+.future{
+    display: flex;
+    color: #FFFFFF;
+    gap: 59px;
+    font-size: 16px;
+}
+.tehsil{
+    position: absolute;
+    top: 28px;
+    left: 266px;
+}
+.kurs{
+    color: #30FFCD;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    width: 500px;
+    text-transform: uppercase;
+}
+.developer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.fevral{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-bottom: yellow dashed 2px;
+
+}
+.telebe{
+    padding-top: 12%;
+    margin-left: 10%;
+}
+.ugur{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.gelecek{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 47px;
+    text-transform: uppercase;
+    color: #382459;
+    letter-spacing: 3px;
+}
+.anket{
+    width: 224px;
+    height: 48px;
+    background: #FF1DC0;
+    border-radius: 48px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    font-size: 15.0508px;
+    font-weight: 600;
+    margin-top: 1%;
+}
+.adnsu{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.junior{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    width: 255px;
+    color: #382459;
+}
+.program{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #382459;
+}
+.uni{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    color: #382459;
+    width: 368px;
+}
+.tecrube{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.section3{
+    background-image: url(./picture/Rectangle\ 1218.png);
+    background-size: cover;
+    width: 100%;
+    height: 624px;
+    margin-top: 10%;
+}
+.purple{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    margin-left: 10%;
+    margin-right: 29%;
+}
+.percent{
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+.vakansiya{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.link{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 10.0042px;
+    opacity: 0.62;
+    color: #FFFFFF;
+}
+.purple1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 25%;
+    padding-top: 5%;
+}
+.img{
+    position: absolute;
+    top: 1910px;
+    left: 1050px;
+}
+.tedris{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 47px;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    color: #382459;
+    padding-top: 7%;
+    margin-left: 10%;
+}
+.inkisaf{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    color: #382459;
+}
+.keys{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #382459;
+}
+.destek{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding-bottom: 10%;
+}
+.section5{
+    background-image: url(./picture/Rectangle\ 1353.png);
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+}
+.algoritmika{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.sistem{
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+.web{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.programi{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #30FFCD;
+    border: 2px solid #33DFC0;
+    box-sizing: border-box;
+    border-radius: 48px;
+    width: 192px;
+    height: 38px;
+    padding-top: 7px;
+
+}
+.sertler{
+    padding-top: 9%;
+    margin-left: 10%;
+    padding-bottom: 8%;
+}
+.neft{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 47px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #382459;
+}
+.erize{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #382459;
+}
+.group5001{
+    position:absolute;
+    top: 3253px;
+    left: 762px;
+    z-index: -1;
+}
+.section7{
+    background-image: url(./picture/Rectangle\ 1354.png);
+    background-size: cover ;
+    width: 100%;
+    height: 600px;
+}
+.purple3{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+.muraciet{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 47px;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+.musahibe{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.elaqe{
+    padding-top: 8%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.code{
+    display:flex;
+    justify-content: space-between;
+}
+.union{
+    display: flex;
+    gap: 30%;
+
+}
+.phone{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    color: #382459;
+    letter-spacing: 1px;
+}
+.azii{
+    margin-left:14%;
+}
+.qebul{
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    gap: 25%;
+}
+.fevral1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    color: #382459;
+}
