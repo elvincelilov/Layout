@@ -30,6 +30,7 @@
 li{
     list-style-type: none;
 }
+
 .future{
     display: flex;
     color: #FFFFFF;
@@ -200,7 +201,7 @@ a{
 }
 .img{
     position: absolute;
-    top: 1910px;
+    top: 1900px;
     left: 1050px;
 }
 .tedris{
