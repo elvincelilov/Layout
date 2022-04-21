@@ -1,0 +1,113 @@
+/* div {
+    background-color: blue;
+    border-radius: 5px;
+    width: 500px;
+    
+    padding-left: 30px;
+    padding-bottom: 2%;
+}
+button {
+    border-radius: 20px;
+    width: 170px;
+    margin-bottom: 2px;
+}
+
+#hide{
+    display: none;
+}
+ul{
+    display: none;
+} */
+
+/* body { 
+    font-family: Verdana , Arial , Helvetica , sans-serif; 
+    font-size: 16px; 
+} 
+ 
+ .container { 
+     display: flex; 
+     justify-content: center; 
+     align-items: center; 
+     height: 100vh; 
+} 
+ 
+ .volume-level-block { 
+     background: #fff; 
+     box-shadow: 0 5px 20px #E4E4E6; 
+     width: 500px; 
+     padding: 40px; 
+ } 
+ 
+.volume-level-block .flex { 
+    display: flex; 
+ 
+} 
+ 
+#volume-bar { 
+    border: 1px solid black; 
+    /* flex-grow: 1; 
+     height: 20px; 
+    cursor: pointer; 
+    margin: 0 20px; 
+    width: 400px; 
+} 
+ 
+#volume-bar-div { 
+    width: 100%; 
+    max-width: 100%; 
+    background-color: #FFA310; 
+    height: 20px; 
+} 
+ 
+.volume-level-block .flex .button { 
+    border: 1px solid #cccccc; 
+    width: 20px; 
+    height: 20px; 
+    text-align: center; 
+    cursor: pointer; 
+} 
+ 
+.volume-level-block .flex .button:hover { 
+    background: #FFA310; 
+    color:white; 
+} 
+ 
+.volume-level-block .value { 
+    text-align: center; 
+    font-weight: bold; 
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600&display=swap');
+ 
+body {
+    font-family: Roboto, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#myTable {
+    border-collapse: collapse;
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ece6e6;
+}
+
+#myTable th {
+    background: #fffeea;
+    padding: 10px;
+    text-align: center;
+}
+
+#myTable  th:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#myTable  td {
+    padding: 8px 40px;
+}
+
+#myTable  tr > td:last-child, table.goods  tr > td:nth-child(3) {
+    text-align: center;
+}

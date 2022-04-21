@@ -1,0 +1,99 @@
+/* .red{
+    background-color: blueviolet;
+}
+.yellow{
+    background-color: aqua;
+} */
+/* .container{
+    height: 100vh;
+    background-color: aqua;
+}
+
+.text{
+    width: 50%;
+    height:50%;
+    background-color: brown;
+
+} -------------------------*/
+/* h1{
+    background-color: azure;
+    width: 300px;
+    height: 100px;
+}
+.red{
+    background-color: cornsilk;
+    width: 200px;
+}
+.yellow{
+    background-color: #fff8ff;
+    height: 400px;
+}
+.yellow::before{
+    content:"HELLO WORLD----";
+}
+
+.red::after{
+    content: "---GOODBYE WORLD";
+} ----------------------------------*/
+
+/* .main{
+    width: 400px;
+    background-color: blueviolet;
+}
+.second{
+    font-size: 30px;
+    background-color: yellow;
+}
+.first{
+    font-size: 11px;
+}
+.paragraf{
+    font-size: 14px;
+} */
+/* p{
+    background-color: cyan;
+} ------------------------------------*/
+/*  
+div{
+    height: 200px;
+    width: 200px;
+}
+.square1{
+    background-color: red;
+}
+.square2{
+    background-color: blue;
+} ------------------------------------ */
+/* p{
+    background-color: cornsilk;
+    margin: 50px;
+    padding: 20px 30px;
+}
+div{
+    border:2px solid black;
+    box-sizing: border-box 300px;
+} --------------------------- */
+
+/* .yellow{
+    background-color: yellow;
+}
+
+p{
+    display: inline;
+    margin-left: 30;
+} --------------------------------*/
+
+p{
+    background-color: cornsilk;
+    margin: 50px;
+    padding: 20px 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.iphonexr{
+    background-color: red;
+    width: 70%;
+    border: red;
+}

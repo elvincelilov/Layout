@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    font-family:"Roboto",sans-serif; 
+ } */
+ .container{
+    display: flex;
+    flex-direction: row;
+
+}
+/* .card{
+    width: fit-content;
+    height: fit-content;
+    min-width: 150px;
+    min-height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color:aqua;
+    text-align: center;
+    line-height: 150px;
+}-------------------------------------------  */
+
+a:link{
+    color: red;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 15px 15px;
+    margin: 29px;
+    height: 100%;
+}
+a:hover{
+    color: black;
+    background-color: transparent;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  td{
+      text-align: center;
+  }
+table{
+    margin: 20px;
+}
+th,td{
+    background-color: aquamarine;
+}

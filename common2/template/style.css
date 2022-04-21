@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1192px;
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 658px;
+    height: 396px;
+    left: 123px;
+    top: 202px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.sagsekil{
+    width: 314px;
+    height: 315px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.fotleft{
+    width: 998px;
+    height: 203px;
+    display: flex;
+    padding-top: 150px;
+}  
+.resim1{
+    width: 232px;
+    height: 203px;  
+} 
+
+.yazicontainer{
+    display: flex;
+    gap: 60px;
+    padding-left: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    padding-top: 40px;
+}
+@media (max-width:375px){
+    .container{
+        width: 100%;
+        margin-left: 4%;
+
+    }
+    .toph1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        color: #000000;
+    }
+    .solp{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #000000;
+    }
+    .sagsekil{
+        display: flex;
+        justify-content: center;
+        margin-right:20px;
+    }
+    .resim1{
+        display: none;
+    }
+    .yazicontainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap:15px;
+        padding-top: 100%;
+
+    }
+    .fh1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: black;
+    }
+    .yazi1{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: black;
+    }
+    .common{
+        margin-left: 5%;
+        margin-right: 5% ;
+    }
+}

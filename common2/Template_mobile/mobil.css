@@ -1,0 +1,104 @@
+body{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+.section1{ 
+    position: relative; 
+} 
+.a{ 
+    background-image: url(image\ 2.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    position: absolute; 
+    z-index: -1; 
+    width: 100vw; 
+    height: 48vh; 
+    top: 0%; 
+} 
+.b{ 
+    background-image: url(Rectangle\ 1218.png); 
+    position: absolute; 
+    height: 24vh; 
+    width: 100vw; 
+    top: 66%; 
+    z-index: -1; 
+} 
+/* .c{ 
+    background-image: url(Rectangle\ 666.png); 
+    position: absolute; 
+    height: 62vh; 
+    width: 100vw; 
+    top: 0%; 
+    z-index: -1; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}  */
+.header{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin-right: 45px; 
+    align-items: center; 
+    padding: 26px; 
+   
+} 
+.a::before{ 
+    position: absolute;  
+    content: '';  
+    height: 72vh;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    z-index: -1; 
+    background-image: linear-gradient(to bottom,  rgb(56 36 89 / 60%),rgba(56, 36, 89, 1)); 
+} 
+ 
+.IT-kurs{ 
+    font-family: Oswald; 
+    font-weight: bold; 
+    font-size: 25px; 
+    letter-spacing: 0.03em; 
+    text-transform: uppercase; 
+    color: #30FFCD; 
+    margin-top: 185px; 
+    margin-left: 30px; 
+} 
+p{ 
+    font-family: Montserrat; 
+    font-weight: normal; 
+    font-size: 13px; 
+    color: #FFFFFF; 
+    margin-left: 30px; 
+     
+    } 
+h6{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 17px; 
+    margin-left: 30px; 
+    color: #FFFFFF; 
+    border-bottom: 1px dashed #FFE920; 
+} 
+/* .logos{ 
+    display: flex; 
+    margin-left: 30px; 
+    gap: 50px; 
+}  */
+.kurs{
+    padding-bottom: 5%;
+}
+/* .section2{ 
+ width: 100vw; 
+}  */
+/* .ne{ 
+    font-family: Oswald; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 24.7px; 
+    line-height: 50px; 
+    letter-spacing: 0.03em; 
+    text-transform: uppercase; 
+    color: #382459; 
+    margin: 68px 32px 47px 32px; 
+     
+} */
